@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# dbt
+target/
+dbt_modules/
+logs/
+
+# Airflow
+airflow/
+airflow_venv_1/
+airflow_project/airflow.cfg
+
+airflow_project/standalone_admin_password.txt
+airflow_project/dags/utils/config/snowflake_config.yaml
+
+dbt_ecommerce/dbt_project.yml
+airflow_project/webserver_config.py
